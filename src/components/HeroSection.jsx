@@ -20,12 +20,12 @@ const HeroSection = () => {
             <a href="#" className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md">Start for free</a>
             <a href="#" className="py-3 px-4 mx-3 rounded-md border">Documentation</a>
         </div>
-        <div className="flex justify-center mt-10 flex-col items-center">
-            <video autoPlay loop muted className="rounded-lg w-full border border-orange-700 shadow-orange-400 mx-2 my-4">
+        <div className="grid sm:grid-cols-2 mt-10 gap-4">
+            <video autoPlay loop muted className="rounded-lg w-full sm:w-full border border-orange-700 shadow-orange-400 mx-2 my-4">
             <source src={video1} type="video/mp4" />
             Your Browser does not support the tag.
             </video>
-            <video autoPlay loop muted className="rounded-lg w-full border border-orange-700 shadow-orange-400 mx-2 my-4">
+            <video autoPlay loop muted className="rounded-lg w-full sm:w-full border border-orange-700 shadow-orange-400 mx-2 my-4">
             <source src={video2} type="video/mp4" />
             Your Browser does not support the tag.
             </video>
