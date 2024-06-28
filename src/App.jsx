@@ -2,6 +2,7 @@ import FeatureSection from "./components/FeatureSection"
 import HeroSection from "./components/HeroSection"
 import Navbar from "./components/Navbar"
 import Pricing from "./components/Pricing"
+import Testimonials from "./components/Testimonials"
 import WorkflowSection from "./components/WorkflowSection"
 
 
@@ -14,6 +15,7 @@ const App = () => {
         <FeatureSection/>
         <WorkflowSection />
         <Pricing/>
+        <Testimonials/>
       </div>
     </>
   )
